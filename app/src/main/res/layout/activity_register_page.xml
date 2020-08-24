@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".RegisterPage">
+
+        <ImageView
+            android:id="@+id/imageView_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/iit_ropar"/>
+
+        <EditText
+            android:id="@+id/edtFirstName_Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_1"
+            android:hint="First Name"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edtLastName_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtFirstName_Register"
+            android:layout_marginTop="15dp"
+            android:hint="Last Name"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edtMobileNumber_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtLastName_register"
+            android:layout_marginTop="15dp"
+           android:hint="Mobile Number"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edtEmail_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtMobileNumber_register"
+            android:layout_marginTop="15dp"
+            android:hint="E-mail"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edtUsername_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtEmail_register"
+            android:layout_marginTop="15dp"
+          android:hint="User-name"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edtPassword_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtUsername_register"
+            android:layout_marginTop="5dp"
+           android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edtPasswordAgain_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPassword_register"
+            android:layout_marginTop="10dp"
+            android:hint="Re-enter Password"
+            android:inputType="textPassword"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPasswordAgain_register"
+            android:layout_marginTop="20dp"
+            android:onClick="Register_password"
+            android:text="Register"
+            android:background="@drawable/side_nav_bar"/>
+
+
+    </RelativeLayout>
+</ScrollView>

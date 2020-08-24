@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YatharthVidhi.iml" filepath="$PROJECT_DIR$/YatharthVidhi.iml" group="YatharthVidhi" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="YatharthVidhi/app" />
+      <module fileurl="file://$PROJECT_DIR$/OpenCV-android-sdk/sdk/opencv.iml" filepath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/opencv.iml" group="YatharthVidhi/opencv" />
+    </modules>
+  </component>
+</project>

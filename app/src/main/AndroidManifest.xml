@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lauszus.facerecognitionapp">
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".subject_train"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name"
+            ></activity>
+        <activity android:name=".add_subject"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name"
+            ></activity>
+        <activity
+            android:name=".subject_activityclass"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".calendarview"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".appbase"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FaceRecognitionAppActivity"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterPage"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".loginpage"
+            android:icon="@drawable/app_icon"
+            android:supportsRtl="false"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

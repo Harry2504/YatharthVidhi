@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginpage"
+   >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/iit_ropar"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtName_login"
+        android:hint="E-mail"
+        android:layout_below="@+id/imageView"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpassword_login"
+        android:hint="Password"
+        android:layout_below="@+id/edtName_login"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtpassword_login"
+        android:text="Forgot Password ?"
+        android:layout_centerHorizontal="true"
+        android:onClick="ForgotPassword"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtpassword_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:onClick="Login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:id="@+id/RegisterLink"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:text="New Member? Register First"
+        android:inputType=""
+        android:onClick="Register"
+        android:clickable="true"/>
+
+
+
+
+
+</RelativeLayout>

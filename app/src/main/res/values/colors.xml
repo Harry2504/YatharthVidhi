@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C87B8</color>
+    <color name="colorPrimaryDark">#9B9898</color>
+    <color name="colorAccent">#9B9898</color>
+    <color name="pink">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!-- Colors for arrow buttons -->
+    <color name="arrow_background_pressed">#FF575757</color>
+    <color name="arrow_background_released">#FF2D2D2D</color>
+    <color name="arrow_border">#FF646464</color>
+</resources>

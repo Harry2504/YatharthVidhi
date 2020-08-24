@@ -1,0 +1,53 @@
+{
+  "buildFiles": [
+    "D:\\YatharthVidhi\\app\\src\\main\\cpp\\Android.mk",
+    "D:\\YatharthVidhi\\app\\src\\main\\cpp\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Harry\\AppData\\Local\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\YatharthVidhi\\app\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dD:\\YatharthVidhi\\app\\src\\main\\cpp\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/YatharthVidhi/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\YatharthVidhi\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "face-lib-release-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\Harry\\AppData\\Local\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\YatharthVidhi\\app\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dD:\\YatharthVidhi\\app\\src\\main\\cpp\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/YatharthVidhi/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\YatharthVidhi\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/YatharthVidhi/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libface-lib.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "face-lib",
+      "files": [
+        {
+          "src": "D:\\YatharthVidhi\\app\\src\\main\\cpp\\FaceRecognitionLib\\Eigenfaces.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include\" -ID:/YatharthVidhi/app/src/main/cpp/../../../../Eigen3 -ID:/YatharthVidhi/app/src/main/cpp/FaceRecognitionLib/RedSVD/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/YatharthVidhi/app/src/main/cpp -std\u003dgnu++11 -frtti -fexceptions -DANDROID_STL\u003dc++_static -DNDEBUG -DANDROID -fPIC -DANDROID -fsigned-char -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing -std\u003dgnu++11 -frtti -fexceptions -frtti -fexceptions"
+        },
+        {
+          "src": "D:\\YatharthVidhi\\app\\src\\main\\cpp\\FaceRecognitionLib\\Facebase.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include\" -ID:/YatharthVidhi/app/src/main/cpp/../../../../Eigen3 -ID:/YatharthVidhi/app/src/main/cpp/FaceRecognitionLib/RedSVD/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/YatharthVidhi/app/src/main/cpp -std\u003dgnu++11 -frtti -fexceptions -DANDROID_STL\u003dc++_static -DNDEBUG -DANDROID -fPIC -DANDROID -fsigned-char -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing -std\u003dgnu++11 -frtti -fexceptions -frtti -fexceptions"
+        },
+        {
+          "src": "D:\\YatharthVidhi\\app\\src\\main\\cpp\\FaceRecognitionLib\\Fisherfaces.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include\" -ID:/YatharthVidhi/app/src/main/cpp/../../../../Eigen3 -ID:/YatharthVidhi/app/src/main/cpp/FaceRecognitionLib/RedSVD/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/YatharthVidhi/app/src/main/cpp -std\u003dgnu++11 -frtti -fexceptions -DANDROID_STL\u003dc++_static -DNDEBUG -DANDROID -fPIC -DANDROID -fsigned-char -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing -std\u003dgnu++11 -frtti -fexceptions -frtti -fexceptions"
+        },
+        {
+          "src": "D:\\YatharthVidhi\\app\\src\\main\\cpp\\FaceRecognitionLib\\LDA.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include\" -ID:/YatharthVidhi/app/src/main/cpp/../../../../Eigen3 -ID:/YatharthVidhi/app/src/main/cpp/FaceRecognitionLib/RedSVD/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/YatharthVidhi/app/src/main/cpp -std\u003dgnu++11 -frtti -fexceptions -DANDROID_STL\u003dc++_static -DNDEBUG -DANDROID -fPIC -DANDROID -fsigned-char -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing -std\u003dgnu++11 -frtti -fexceptions -frtti -fexceptions"
+        },
+        {
+          "src": "D:\\YatharthVidhi\\app\\src\\main\\cpp\\FaceRecognitionLib\\PCA.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include\" -ID:/YatharthVidhi/app/src/main/cpp/../../../../Eigen3 -ID:/YatharthVidhi/app/src/main/cpp/FaceRecognitionLib/RedSVD/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/YatharthVidhi/app/src/main/cpp -std\u003dgnu++11 -frtti -fexceptions -DANDROID_STL\u003dc++_static -DNDEBUG -DANDROID -fPIC -DANDROID -fsigned-char -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing -std\u003dgnu++11 -frtti -fexceptions -frtti -fexceptions"
+        },
+        {
+          "src": "D:\\YatharthVidhi\\app\\src\\main\\cpp\\face-lib.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"D:/YatharthVidhi/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/include\" -ID:/YatharthVidhi/app/src/main/cpp/../../../../Eigen3 -ID:/YatharthVidhi/app/src/main/cpp/FaceRecognitionLib/RedSVD/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/Harry/AppData/Local/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/YatharthVidhi/app/src/main/cpp -std\u003dgnu++11 -frtti -fexceptions -DANDROID_STL\u003dc++_static -DNDEBUG -DANDROID -fPIC -DANDROID -fsigned-char -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing -std\u003dgnu++11 -frtti -fexceptions -frtti -fexceptions"
+        }
+      ],
+      "output": "D:\\YatharthVidhi\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libface-lib.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "C:\\Users\\Harry\\AppData\\Local\\Android\\ndk\\21.1.6352462\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
