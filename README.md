@@ -28,10 +28,10 @@ then attendance will be marked present.</p></li>
     </ol>
 
 <img src="login.png" style="display:block">
-<span>Fig: Login page </span>
+<span style="display:block">Fig: Login page </span>
 
-<img src="register.png">
-<span>Fig: Register Page</span>
+<img src="register.png" style="display:block">
+<span style="display:block">Fig: Register Page</span>
 
 <img src="images/main">
 <span>Fig: Main Page </span>
