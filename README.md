@@ -1,62 +1,79 @@
-Motivation:
-The main motive of the project is to develop an attendance application which will take
+<h1>Motivation:</h1>
+<p>The main motive of the project is to develop an attendance application which will take
 the attendance of the students by recognizing their face and fingerprint ( biometric). It
 will save the time taken and efforts made by the professor in taking manual attendance.
-With this attendance app, students will not be able to mark proxies for others.
-Project Description:
-1. Introduction:
-Yatharth Vidhi is an attendance application. It will be installed in the professor's
+With this attendance app, students will not be able to mark proxies for others.</p>
+
+<h1>Project Description:</h1>
+<ol>
+  <li><h3>Introduction:</h3>
+<p>Yatharth Vidhi is an attendance application. It will be installed in the professor's
 mobile who is taking the attendance. Students’ data will be already trained in the
 application and the mobile will be passed among the students for scanning their
-faces in the camera and detecting fingerprints. If both match with the trained data,
-then attendance will be marked present. To prevent the proxies done by scanning
-of photographs, a fingerprint scanner feature will be added. In this way, it will work
-in a smart way with full security of the mobile and 100% accurate attendance. But,
-due to the unavailability of the fingerprint device, that feature is not installed yet.
-2. Design:
-A. When we open our app, we get the login page. After this:
-01.If you are a member, add your credentials.
-02.If you are not a member, click Register.
+faces in the camera. If it matches with the trained data,
+then attendance will be marked present.</p></li>
 
-B. After login, we get to our main page, which has two options:
+<li><h3> Design:</h3>
+  <ol>
+    <li>When we open our app, we get the login page. After this:</li>
+    <ol>
+      <li>If you are a member, add your credentials.</li>
+      <li>If you are not a member, click Register.</li>
+    </ol>
+    <li>After login, we get to our main page, which has two options:</li>
+    <ol>
+      <li>Attendance: After this, we get a calendar to choose the date for marking attendance.</li>
+      <li>02.Train data: After this, we get a list of subjects that have been registered under the professor’s name. The add button (circle at the button right
+        corner), is used to add subjects under the professor’s name.</li>
+    </ol>
 
-01.Attendance: After this, we get a calendar to choose the date for marking
-attendance.
-02.Train data: After this, we get a list of subjects that have been registered
-under the professor’s name. The add button (circle at the button right
-corner), is used to add subjects under the professor’s name.
+<img src="images/login">
+<span>Fig: Login page </span>
 
-Fig: Login page Fig: Register Page
+<img src="images/register">
+<span>Fig: Register Page</span>
 
-Fig: Main Page Fig: After attendance icon Fig: After Train data icon
-C. After clicking the train icon and being directed to the list of subjects page, we click on
+<img src="images/main">
+<span>Fig: Main Page </span>
+
+<img src="images/attendance">
+<span>Fig: After attendance icon</span>
+
+<img src="images/train">
+<span>Fig: After Train data icon</span>
+
+<li>After clicking the train icon and being directed to the list of subjects page, we click on
 a particular subject for saving the students credential. Then we are taken to the
 camera and after that, we train the data for face recognition of the students that are
 enrolled in that particular subject. After training, you can go to the main page and
-start taking attendance!!
+start taking attendance!!</li>
 
-D. After clicking on the attendance icon, we first have a calendar page and then a page
+<li> After clicking on the attendance icon, we first have a calendar page and then a page
 with the date and list of subjects that are registered under the professor’s name. Then
 after clicking on a particular subject, we are taken to the camera and further xafter
-recognition of the face, a popup appears with attendance marked successfully.
+recognition of the face, a popup appears with attendance marked successfully.</li>
 
-Fig: After calendar page Fig:While training Fig: While face recognition(attendance)
-( Varun face’s detected)
-E. For the backend part, we had built a REST API which is used to provide a central
-database for the app.
-F. In REST API, the URL endpoints built are (this was on localhost but we can deploy
-them on google cloud but as we didn’t have the google cloud subscription we tested it
-locally only):
-01. http://localhost/yv/v1/register 02. http://localhost/yv/v1/login
-02.http://localhost/yv/v1/update 04. http://localhost/yv/v1/image_url
-3. Methodology:
+<img src="images/calendar">
+<span>Fig: After calendar page</span>
+
+<img src="images/training">
+<span>Fig:While training </span>
+
+<img src="images/face">
+<span>Fig: While face recognition(attendance)
+( Varun face’s detected)</span>
+
+</ol>
+
+<li><h3>Methodology:</h3>
 The main part of the application was to develop the face recognition algorithm. For
 the face recognition under variation in lighting and facial expression, we have 4
 different types of algorithms available given as:
-● Correlation
-● A variant of the linear subspace method
-● Eigenface method
-● Fisherface method
+  <ul>
+    <li>Correlation</li>
+    <li>A variant of the linear subspace method</li>
+    <li>Eigenface method</li>
+    <li>Fisherface method</li>
 Among these we have used the Eigenface method in our application( we
 implemented fisherface and eigenface methods but went forward with the eigenface
 method.)
@@ -71,3 +88,4 @@ dimensionality reduction, yields projection directions that maximize the total s
 across all classes, i.e., across all images of all faces. In choosing the projection which
 maximizes total scatter, PCA retains unwanted variations due to lighting and facial
 expression.
+</li>
