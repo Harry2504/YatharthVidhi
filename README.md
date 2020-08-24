@@ -1,3 +1,11 @@
+ <style> 
+            body { 
+                text-align:center; 
+            } 
+            h1 { 
+                color:green; 
+            } 
+        </style>
 <h1>Motivation:</h1>
 <p>The main motive of the project is to develop an attendance application which will take
 the attendance of the students by recognizing their face and fingerprint ( biometric). It
@@ -27,8 +35,8 @@ then attendance will be marked present.</p></li>
         corner), is used to add subjects under the professor’s name.</li>
     </ol>
 
-<center><img src="login.png" style="display:block">
-<h6>Fig: Login page</h6></center>
+<img src="login.png" style="display:block">
+<h6>Fig: Login page</h6>
 
 <img src="register.png" style="display:block">
 <h6>Fig: Register Page</h6>
@@ -40,7 +48,7 @@ then attendance will be marked present.</p></li>
 <h6>Fig: After attendance icon</h6>
 
 <img src="train.png" style="display:block">
-<h6>>Fig: After Train data icon</h6>
+<h6>Fig: After Train data icon</h6>
 
 <li>After clicking the train icon and being directed to the list of subjects page, we click on
 a particular subject for saving the students credential. Then we are taken to the
