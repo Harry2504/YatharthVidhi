@@ -33,14 +33,14 @@ then attendance will be marked present.</p></li>
 <img src="register.png" style="display:block">
 <span style="display:block">Fig: Register Page</span>
 
-<img src="images/main">
-<span>Fig: Main Page </span>
+<img src="main.png" style="display:block">
+<span style="display:block">Fig: Main Page </span>
 
-<img src="images/attendance">
-<span>Fig: After attendance icon</span>
+<img src="attendance.png" style="display:block">
+<span style="display:block">Fig: After attendance icon</span>
 
-<img src="images/train">
-<span>Fig: After Train data icon</span>
+<img src="train.png" style="display:block">
+<span style="display:block">Fig: After Train data icon</span>
 
 <li>After clicking the train icon and being directed to the list of subjects page, we click on
 a particular subject for saving the students credential. Then we are taken to the
@@ -53,14 +53,14 @@ with the date and list of subjects that are registered under the professor’s n
 after clicking on a particular subject, we are taken to the camera and further xafter
 recognition of the face, a popup appears with attendance marked successfully.</li>
 
-<img src="images/calendar">
-<span>Fig: After calendar page</span>
+<img src="calendar.png" style="display:block">
+<span style="display:block">Fig: After calendar page</span>
 
-<img src="images/training">
-<span>Fig:While training </span>
+<img src="training.png" style="display:block">
+<span style="display:block">Fig:While training </span>
 
-<img src="images/face">
-<span>Fig: While face recognition(attendance)
+<img src="face.png" style="display:block">
+<span style="display:block">Fig: While face recognition(attendance)
 ( Varun face’s detected)</span>
 
 </ol>
