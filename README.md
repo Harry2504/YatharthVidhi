@@ -27,17 +27,17 @@ then attendance will be marked present.</p></li>
         corner), is used to add subjects under the professor’s name.</li>
     </ol>
 
-<img src="login.png" style="display:block" caption="Fig: Login page">
-<span style="display:block"> </span>
+<img src="login.png" style="display:block">
+<h6>Fig: Login page</h6>
 
 <img src="register.png" style="display:block">
-<span style="display:block">Fig: Register Page</span>
+<h6>Fig: Register Page</h6>
 
 <img src="main.png" style="display:block">
-<span style="display:block">Fig: Main Page </span>
+<h6>Fig: Main Page </h6>
 
 <img src="attendance.png" style="display:block">
-<span style="display:block">Fig: After attendance icon</span>
+<h6>Fig: After attendance icon</h6>
 
 <img src="train.png" style="display:block">
 <h6>>Fig: After Train data icon</h6>
@@ -54,15 +54,13 @@ after clicking on a particular subject, we are taken to the camera and further x
 recognition of the face, a popup appears with attendance marked successfully.</li>
 
 <img src="calendar.png" style="display:block">
-<span style="display:block">Fig: After calendar page</span>
+<h6>Fig: After calendar page</h6>
 
 <img src="training.png" style="display:block">
-<span style="display:block">Fig:While training </span>
+<h6>Fig:While training </h6>
 
 <img src="face.png" style="display:block">
-<span style="display:block">Fig: While face recognition(attendance)
-( Varun face’s detected)</span>
-
+<h6>Fig: While face recognition(attendance)(Varun face’s detected)</h6>
 </ol>
 
 <li><h3>Methodology:</h3>
