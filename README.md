@@ -27,10 +27,10 @@ then attendance will be marked present.</p></li>
         corner), is used to add subjects under the professor’s name.</li>
     </ol>
 
-<img src="images/login">
+<img src="login.png" alt="Girl in a jacket" width="500" height="600">
 <span>Fig: Login page </span>
 
-<img src="images/register">
+<img src="register.png">
 <span>Fig: Register Page</span>
 
 <img src="images/main">
