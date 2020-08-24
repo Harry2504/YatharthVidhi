@@ -1,11 +1,17 @@
- <style> 
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>CSS center property</title> 
+        <style> 
             body { 
                 text-align:center; 
             } 
             h1 { 
                 color:green; 
             } 
-        </style>
+        </style> 
+    </head> 
+    <body> 
 <h1>Motivation:</h1>
 <p>The main motive of the project is to develop an attendance application which will take
 the attendance of the students by recognizing their face and fingerprint ( biometric). It
@@ -95,3 +101,5 @@ across all classes, i.e., across all images of all faces. In choosing the projec
 maximizes total scatter, PCA retains unwanted variations due to lighting and facial
 expression.
 </li>
+    </body> 
+</html> 
