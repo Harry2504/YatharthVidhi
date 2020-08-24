@@ -40,7 +40,7 @@ then attendance will be marked present.</p></li>
 <span style="display:block">Fig: After attendance icon</span>
 
 <img src="train.png" style="display:block">
-<span style="display:block">Fig: After Train data icon</span>
+<h6>>Fig: After Train data icon</h6>
 
 <li>After clicking the train icon and being directed to the list of subjects page, we click on
 a particular subject for saving the students credential. Then we are taken to the
