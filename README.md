@@ -1,17 +1,6 @@
 <!DOCTYPE html> 
 <html> 
-    <head> 
-        <title>CSS center property</title> 
-        <style> 
-            body { 
-                text-align:center; 
-            } 
-            h1 { 
-                color:green; 
-            } 
-        </style> 
-    </head> 
-    <body> 
+   <body> 
 <h1>Motivation:</h1>
 <p>The main motive of the project is to develop an attendance application which will take
 the attendance of the students by recognizing their face and fingerprint ( biometric). It
